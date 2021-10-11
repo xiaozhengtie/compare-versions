@@ -24,14 +24,15 @@ Install [gradle](https://gradle.org/install/). You can use sdkman to install it
 ```
 >sdk install gradle
 ```
+You can also open/compile/run it using an IDE (e.g., I use IntelliJ IDEA).
 ## Runbook
-To run it,
+Build and run unit test:
 ```
 ./gradlew build
 ```
 
 ## Code
-See the CompareVersions class in src/main/java/, and test code in src/test/java/.
+See the `CompareVersions` class in src/main/java/, and test code in src/test/java/.
 ### Usage
 ```java
 import com.xztie.compareversions.CompareVersions;
