@@ -18,6 +18,10 @@ public class CompareVersions {
     private static final int GREATER_THAN_RET = 1;
     private static final int EQUAL_RET = 0;
 
+    public static void main(String[] args) {
+        CompareVersions compareVersions = new CompareVersions();
+        System.out.println(CompareVersions.compareTwoVersions("0.1", "1.1"));
+    }
     /**
      * this function assumes version1 and version2 are valid version strings.
      *

@@ -30,7 +30,7 @@ Build and run unit test:
 ```
 ./gradlew build
 ```
-
+You can also open the project in your own IDE and run the `main` method in `CompareVersions` class.
 ## Code
 See the `CompareVersions` class in src/main/java/, and test code in src/test/java/.
 ### Usage
