@@ -20,6 +20,8 @@ Java JDK version 8 or higher, to check, run
 >java -version
 openjdk version "1.8.0_292"
 ```
+Btw, I used java 11 to compile, build and run it successfully.
+
 Install [gradle](https://gradle.org/install/). You can use sdkman to install it
 ```
 >sdk install gradle
